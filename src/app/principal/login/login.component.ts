@@ -18,7 +18,7 @@ export class LoginComponent {
 
   validar = {
     usuario: 'stony',
-    contra: 'contra123',
+    contra: '123456',
   };
 
   constructor(private autenticacion: AutenticacionService, private router: Router) { }
